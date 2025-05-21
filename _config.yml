@@ -60,7 +60,7 @@ plugins:
 author:
   name   : "From Hoa"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : ""
+  bio    : "I work with Java and systems, but I’m also into conservation and east asian cultures."
   links:
     #- label: "Website"
     #  icon: "fas fa-fw fa-link"
