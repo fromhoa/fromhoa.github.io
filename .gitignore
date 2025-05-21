@@ -2,3 +2,33 @@ _site
 .sass-cache
 .jekyll-metadata
 Gemfile.lock
+
+# Ignore Ruby gems installed locally in vendor folder
+/vendor/
+
+# Ignore Bundler config
+.bundle/
+
+# Ignore build output folder
+_site/
+
+# Ignore Sass cache folder
+.sass-cache/
+
+# Ignore logs and temp files
+*.log
+*.tmp
+
+# Ignore Mac system files
+.DS_Store
+
+# Ignore editor swap or backup files
+*~
+*.swp
+*.swo
+
+# Ignore node_modules if you ever use Node.js tools
+node_modules/
+
+# macOS system files
+.DS_Store
