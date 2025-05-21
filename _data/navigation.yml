@@ -6,10 +6,10 @@ main:
   - title: Home
     url: /
     external: false
-  - title: codedbyhoa.com
+  - title: Coded by Hoa
     url: https://www.codedbyhoa.com
     external: true
-  - title: craftedbyhoa.com
+  - title: Crafted by Hoa
     url: https://www.craftedbyhoa.com
     external: true
   - title: "Contact"
