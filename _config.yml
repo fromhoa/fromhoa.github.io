@@ -60,7 +60,7 @@ plugins:
 author:
   name   : "From Hoa"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "I work with Java and systems, but I’m also into conservation and east asian cultures."
+  bio    : "I work with Java and systems, but I’m also into environmental and wildlife conservation, as well as east asian cultures."
   links:
     #- label: "Website"
     #  icon: "fas fa-fw fa-link"
