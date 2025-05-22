@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  {%- seo -%}
+
+  {% if site.google_analytics %}
+    {% include analytics.html %}
+  {% endif %}
+
+  <!-- Favicon -->
+  <link rel="icon" href="{{ '/assets/images/favicon.png' | relative_url }}" type="image/png">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+
+  <!-- Feed -->
+  {% if site.feed.path %}
+    <link type="application/atom+xml" rel="alternate" href="{{ site.feed.path | relative_url }}" title="{{ site.title }}">
+  {% endif %}
+
+  {% include custom-head.html %}
+</head>
