@@ -109,6 +109,11 @@ defaults:
     values:
       layout: single
       author_profile: true
+  # Favicon at site root
+  - scope:
+      path: "assets/images"
+    values:
+      permalink: /:basename:output_ext
 
 category_archive:
   type: liquid
